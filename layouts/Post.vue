@@ -23,8 +23,9 @@ itemtype="https://schema.org/BlogPosting"
   </div>
 </div>
 
-<div class="row justify-content-center text-center mt-4 mb-40">
-  <div class="col-md-9">
+<!--div class="row justify-content-center text-center mt-4 mb-40"-->
+<div class="row justify-content-center">
+  <div class="col-md-8">
 
     <div id="firewall-rules"
                     class="sk-widget"
