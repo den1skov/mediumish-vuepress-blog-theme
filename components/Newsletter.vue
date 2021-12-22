@@ -31,13 +31,6 @@ export default {
 }
 </script>
 
-<style type="text/css">
-      .sk-widget .sk-text {
-          font-size: 1.5rem;
-          font-weight: 400;
-      }
-  </style>
-
 
 <style lang="stylus">
 .newsletter
