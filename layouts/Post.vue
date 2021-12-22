@@ -25,16 +25,13 @@ itemtype="https://schema.org/BlogPosting"
 
 <div class="row justify-content-center text-center mt-4 mb-40">
   <div class="col-md-9">
-    <div class="row justify-content-center">
-  <div class="col-md-8">
+
     <div id="firewall-rules"
                     class="sk-widget"
                     data-width="600"
                     data-course-id="3"
                     data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
                 </div>
-  </div>
-</div>
     <!--img class="featuredimg" :src="$frontmatter.featuredimg"-->
   </div>
 </div>
