@@ -13,7 +13,7 @@ itemtype="https://schema.org/BlogPosting"
 
   <span class="text-muted"><PostMeta  :date="$frontmatter.date" /></span>
   <h1 class="article-head mt-3" itemprop="name headline">
-  {{ $frontmatter.title }}
+  {{ $frontmatter.title }} {{$frontmatter.course}}
   </h1>
   <p class="lead">{{ $frontmatter.description }}</p>
 
@@ -29,7 +29,7 @@ itemtype="https://schema.org/BlogPosting"
 <div id="firewall-rules"
                     class="sk-widget"
                     data-width="600"
-                    data-course-id="$frontmatter.course"
+                    data-course-id="{{$frontmatter.course}}"
                     data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
                 </div>
     <!--img class="featuredimg" :src="$frontmatter.featuredimg"-->
