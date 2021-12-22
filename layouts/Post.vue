@@ -71,6 +71,8 @@ export default {
 }
 </script>
 
+<script async defer data-id="sk-runtime" src="https://microlearn.azurewebsites.net/js/bundle/runtime.js"></script>
+
 <style lang="stylus" scoped>
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap')
 </style>
