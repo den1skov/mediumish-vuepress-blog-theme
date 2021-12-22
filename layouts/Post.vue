@@ -29,6 +29,14 @@ itemtype="https://schema.org/BlogPosting"
   </div>
 </div>
 
+<div id="firewall-rules"
+                style="display: none" 
+                class="sk-widget"
+                data-width="600"
+                data-course-id="1"
+                data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
+            </div>
+
 <div class="row justify-content-center">
   <div class="col-md-8">
   <Content  itemprop="articleBody" />
@@ -69,6 +77,24 @@ export default {
   },
 
 }
+</script>
+
+<script>
+export default {
+  mounted() {
+    const plugin = document.createElement("script");
+    plugin.setAttribute(
+      "src",
+      "https://microlearn.azurewebsites.net/js/bundle/runtime.js"
+    );
+    plugin.setAttribute(
+      "data-id",
+      "sk-runtime"
+    );
+    plugin.async = true;
+    document.head.appendChild(plugin);
+  }
+};
 </script>
 
 <style lang="stylus" scoped>

@@ -3,13 +3,6 @@
     <div class="newsletter__wrap">
       <div class="newsletter__title">{{ slotProps.title }}</div>
       <div class="newsletter__content">{{ slotProps.content }}</div>
-      <div id="firewall-rules"
-                style="display: none" 
-                class="sk-widget"
-                data-width="600"
-                data-course-id="1"
-                data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
-            </div>
       <div class="newsletter__fields">
         <input
           v-model="slotProps.mail"
@@ -36,24 +29,6 @@ import SimpleNewsletter from 'vuepress-plugin-mailchimp/src/components/SimpleNew
 export default {
   components: { SimpleNewsletter },
 }
-</script>
-
-<script>
-export default {
-  mounted() {
-    const plugin = document.createElement("script");
-    plugin.setAttribute(
-      "src",
-      "https://microlearn.azurewebsites.net/js/bundle/runtime.js"
-    );
-    plugin.setAttribute(
-      "data-id",
-      "sk-runtime"
-    );
-    plugin.async = true;
-    document.head.appendChild(plugin);
-  }
-};
 </script>
 
 <style type="text/css">
