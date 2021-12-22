@@ -39,13 +39,6 @@ itemtype="https://schema.org/BlogPosting"
 
   </div>
 </div>
-<div id="firewall-rules"
-                style="display: none" 
-                class="sk-widget"
-                data-width="600"
-                data-course-id="1"
-                data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
-            </div>
 
 </article>
 
@@ -78,15 +71,6 @@ export default {
 }
 </script>
 
-<script data-id="sk-runtime" src="https://microlearn.azurewebsites.net/js/bundle/runtime.js"></script>
-
 <style lang="stylus" scoped>
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap')
 </style>
-
-<style type="text/css">
-      .sk-widget .sk-text {
-          font-size: 1.5rem;
-          font-weight: 400;
-      }
-  </style>
