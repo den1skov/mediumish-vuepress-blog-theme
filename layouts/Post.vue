@@ -27,15 +27,16 @@ itemtype="https://schema.org/BlogPosting"
 <div class="row justify-content-center">
   <div class="col-md-8">
 
-    <div id="firewall-rules"
+    <!--img class="featuredimg" :src="$frontmatter.featuredimg"-->
+  </div>
+</div>
+
+<div id="firewall-rules"
                     class="sk-widget"
                     data-width="600"
                     data-course-id="3"
                     data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
                 </div>
-    <!--img class="featuredimg" :src="$frontmatter.featuredimg"-->
-  </div>
-</div>
 
 <div class="row justify-content-center">
   <div class="col-md-8">
