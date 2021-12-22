@@ -34,7 +34,7 @@ itemtype="https://schema.org/BlogPosting"
 <div id="firewall-rules"
                     class="sk-widget"
                     data-width="600"
-                    data-course-id="3"
+                    data-course-id="1"
                     data-client-id="86bfa9f2-6238-4241-83be-fd961e72b996">
                 </div>
 
